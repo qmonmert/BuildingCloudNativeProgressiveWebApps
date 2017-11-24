@@ -2,3 +2,5 @@
 
 bike-catalog-service/target
 bike-catalog-service/bike-catalog-service.iml
+bike-catalog-service/.idea
+bike-catalog-service/.mvn
