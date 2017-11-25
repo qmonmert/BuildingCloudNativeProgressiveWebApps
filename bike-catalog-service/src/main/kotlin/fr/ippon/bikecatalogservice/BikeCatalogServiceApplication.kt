@@ -3,7 +3,6 @@ package fr.ippon.bikecatalogservice
 import org.springframework.boot.ApplicationRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.builder.SpringApplicationBuilder
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 import org.springframework.context.support.beans
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
@@ -13,7 +12,6 @@ import org.springframework.web.reactive.function.server.body
 import org.springframework.web.reactive.function.server.router
 import reactor.core.publisher.Flux
 
-@EnableDiscoveryClient
 @SpringBootApplication
 class BikeCatalogServiceApplication
 

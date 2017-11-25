@@ -34,7 +34,7 @@ fun main(args: Array<String>) {
                         gateway {
                             route {
                                 id("bike-catalog-service")
-                                predicate(path("/bike-catalog-service") or path("/original-bikes"))
+                                predicate(path("/bike-catalog-service") or path("/all-bikes"))
                                 uri("lb://bike-catalog-service/bikes")
                             }
                         }
