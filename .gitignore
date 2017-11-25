@@ -4,3 +4,13 @@ bike-catalog-service/target
 bike-catalog-service/bike-catalog-service.iml
 bike-catalog-service/.idea
 bike-catalog-service/.mvn
+
+eureka-service/target
+eureka-service/eureka-service.iml
+eureka-service/.idea
+eureka-service/.mvn
+
+edge-service/target
+edge-service/edge-service.iml
+edge-service/.idea
+edge-service/.mvn
